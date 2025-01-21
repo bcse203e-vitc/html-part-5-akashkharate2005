@@ -1,0 +1,26 @@
+.card
+{
+    background-color: beige;
+    text-align: center;
+    border-radius: 10px;
+    padding : 3px;
+}
+
+.card:hover
+{
+    background-color: green;
+    box-shadow: 5px 5px 3px 1px black;
+}
+
+#main
+{
+    padding-top: 50%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+body
+{
+    background-color: silver;
+}
