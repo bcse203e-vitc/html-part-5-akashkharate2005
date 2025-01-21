@@ -1,0 +1,50 @@
+.menu
+{
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+}
+
+.menu:hover
+{
+    background-color: goldenrod;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu>div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list
+{
+    display: none;
+    position: absolute;
+    padding-top: 165px;
+    padding-left: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.list p
+{
+    display: none;
+    text-align: center;
+    background-color: beige;
+    text-align: center;
+    height: 25px;
+    width: 70px;
+    margin: 0px;
+    border: 0px;
+}
