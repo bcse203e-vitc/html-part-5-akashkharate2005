@@ -1,0 +1,50 @@
+.header
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.form
+{
+    margin-top: 4px;
+    border-radius: 15px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+input
+{
+    border-radius: 5px ;
+    border-color: beige;
+}
+
+.button
+{
+    background-color: beige;
+    border-radius: 7px;
+    border-color: beige;    
+}
+
+.button:hover
+{
+    box-shadow: 2px 2px grey;
+    background-color: azure;
+}
+
+.form input:valid
+{
+    border-color: #4caf50;
+}
+
+.form input:invalid
+{
+    border-color: #f44336 ;
+}
